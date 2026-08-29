@@ -3,9 +3,6 @@ name: e2e/dojo
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
-
 jobs:
   e2e:
     name: E2E Tests
