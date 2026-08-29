@@ -1,11 +1,8 @@
 name: Danger
 
 on:
-  pull_request:
-    paths:
-      - "sdk-python/copilotkit/langgraph_agent.py"
-      - "CopilotKit/packages/sdk-js/src/langgraph.ts"
-
+  push:
+    branches: [main]
 jobs:
   danger:
     runs-on: ubuntu-latest
