@@ -12,13 +12,6 @@ on:
       - 'CopilotKit/packages/**/package.json'
       - 'CopilotKit/packages/**/CHANGELOG.md'
       - 'CopilotKit/.changeset/**'
-  pull_request:
-    branches: [main]    
-    paths-ignore:
-      - 'docs/**'
-      - 'README.md'
-      - 'examples/**'
-
 jobs:
   prettier:
     name: 'Prettier'
