@@ -1,8 +1,8 @@
 name: Destroy Preview Environments
 
 on:
-  pull_request:
-    types: [ closed ]
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       pr_number:
